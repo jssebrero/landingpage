@@ -12,7 +12,7 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
         server: ftp.jssebrero.com
-        username: portafolioweb@pos.jssebrero.com
+        username: portafolioweb@web.jssebrero.com
         password: ${{ secrets.PASSFTP }}
         exclude: |
           **/.git*
